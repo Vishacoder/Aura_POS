@@ -1,0 +1,17 @@
+D:\Aura\Aura_POS\Aura.Data\bin\Debug\net8.0\Aura.Data.deps.json
+D:\Aura\Aura_POS\Aura.Data\bin\Debug\net8.0\Aura.Data.runtimeconfig.json
+D:\Aura\Aura_POS\Aura.Data\bin\Debug\net8.0\Aura.Data.dll
+D:\Aura\Aura_POS\Aura.Data\bin\Debug\net8.0\Aura.Data.pdb
+D:\Aura\Aura_POS\Aura.Data\obj\Debug\net8.0\Aura.Data.csproj.AssemblyReference.cache
+D:\Aura\Aura_POS\Aura.Data\obj\Debug\net8.0\Aura.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aura\Aura_POS\Aura.Data\obj\Debug\net8.0\Aura.Data.AssemblyInfoInputs.cache
+D:\Aura\Aura_POS\Aura.Data\obj\Debug\net8.0\Aura.Data.AssemblyInfo.cs
+D:\Aura\Aura_POS\Aura.Data\obj\Debug\net8.0\Aura.Data.csproj.CoreCompileInputs.cache
+D:\Aura\Aura_POS\Aura.Data\obj\Debug\net8.0\Aura.Data.dll
+D:\Aura\Aura_POS\Aura.Data\obj\Debug\net8.0\refint\Aura.Data.dll
+D:\Aura\Aura_POS\Aura.Data\obj\Debug\net8.0\Aura.Data.pdb
+D:\Aura\Aura_POS\Aura.Data\obj\Debug\net8.0\Aura.Data.genruntimeconfig.cache
+D:\Aura\Aura_POS\Aura.Data\obj\Debug\net8.0\ref\Aura.Data.dll
+D:\Aura\Aura_POS\Aura.Data\bin\Debug\net8.0\Aura.Core.dll
+D:\Aura\Aura_POS\Aura.Data\bin\Debug\net8.0\Aura.Core.pdb
+D:\Aura\Aura_POS\Aura.Data\obj\Debug\net8.0\Aura.Data.csproj.CopyComplete

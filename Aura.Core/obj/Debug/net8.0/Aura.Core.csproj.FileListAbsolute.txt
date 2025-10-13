@@ -1,0 +1,12 @@
+D:\Aura\Aura_POS\Aura.Core\bin\Debug\net8.0\Aura.Core.deps.json
+D:\Aura\Aura_POS\Aura.Core\bin\Debug\net8.0\Aura.Core.dll
+D:\Aura\Aura_POS\Aura.Core\bin\Debug\net8.0\Aura.Core.pdb
+D:\Aura\Aura_POS\Aura.Core\obj\Debug\net8.0\Aura.Core.csproj.AssemblyReference.cache
+D:\Aura\Aura_POS\Aura.Core\obj\Debug\net8.0\Aura.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aura\Aura_POS\Aura.Core\obj\Debug\net8.0\Aura.Core.AssemblyInfoInputs.cache
+D:\Aura\Aura_POS\Aura.Core\obj\Debug\net8.0\Aura.Core.AssemblyInfo.cs
+D:\Aura\Aura_POS\Aura.Core\obj\Debug\net8.0\Aura.Core.csproj.CoreCompileInputs.cache
+D:\Aura\Aura_POS\Aura.Core\obj\Debug\net8.0\Aura.Core.dll
+D:\Aura\Aura_POS\Aura.Core\obj\Debug\net8.0\refint\Aura.Core.dll
+D:\Aura\Aura_POS\Aura.Core\obj\Debug\net8.0\Aura.Core.pdb
+D:\Aura\Aura_POS\Aura.Core\obj\Debug\net8.0\ref\Aura.Core.dll

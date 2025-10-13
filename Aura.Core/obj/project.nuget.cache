@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gpixNdhV4tI8leuVxbmM9wxmq1wppHc/LYZwg3blz4TYm4SfWcHS1aAOoeu2ROcyAzeEFPnQ7dNeg+sj0uhX7A==",
+  "success": true,
+  "projectFilePath": "D:\\Aura\\Aura_POS\\Aura.Core\\Aura.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Utente\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
