@@ -16,23 +16,24 @@ public partial class MainWindowViewModel : ViewModelBase
     [ObservableProperty]
     private ViewModelBase? _currentViewModel;
 
-    public MainWindowViewModel(IUnitOfWork unitOfWork)
+    public MainWindowViewModel(IUnitOfWork unitOfWork, TransactionViewModel transactionViewModel)
     {
         _unitOfWork = unitOfWork;
+        // _transactionViewModel = transactionViewModel; // Optional: Store it if needed
 
-        // Initial setup: Load the core transaction view model upon startup
-        // Note: For now, we'll just set up the current view.
-        // In the next step, we'll replace this with a real TransactionViewModel
-        CurrentViewModel = new DummyViewModel();
+        // Set the primary content of the main window immediately
+        CurrentViewModel = transactionViewModel;
 
-        // We can test data access here later by calling unitOfWork.Products.GetAllAsync()
+        // We can remove the DummyViewModel now!
+
     }
 }
 
 // Temporary placeholder for TransactionView content
-public partial class DummyViewModel : ViewModelBase
-{
-    // Placeholder to show something in the main window while setting up
-    [ObservableProperty]
-    private string _welcomeMessage = "Loading POS System...";
-}
+//public partial class DummyViewModel : ViewModelBase
+//{
+//    // Placeholder to show something in the main window while setting up
+//    [ObservableProperty]
+//    private string _welcomeMessage = "Loading POS System...";
+//}
+

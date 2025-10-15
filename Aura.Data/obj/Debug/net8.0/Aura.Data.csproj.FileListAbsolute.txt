@@ -15,3 +15,4 @@ D:\Aura\Aura_POS\Aura.Data\obj\Debug\net8.0\ref\Aura.Data.dll
 D:\Aura\Aura_POS\Aura.Data\bin\Debug\net8.0\Aura.Core.dll
 D:\Aura\Aura_POS\Aura.Data\bin\Debug\net8.0\Aura.Core.pdb
 D:\Aura\Aura_POS\Aura.Data\obj\Debug\net8.0\Aura.Data.csproj.CopyComplete
+D:\Aura\Aura_POS\Aura.Data\obj\Debug\net8.0\Aura.Data.sourcelink.json

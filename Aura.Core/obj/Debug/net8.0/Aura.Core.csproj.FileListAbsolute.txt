@@ -10,3 +10,4 @@ D:\Aura\Aura_POS\Aura.Core\obj\Debug\net8.0\Aura.Core.dll
 D:\Aura\Aura_POS\Aura.Core\obj\Debug\net8.0\refint\Aura.Core.dll
 D:\Aura\Aura_POS\Aura.Core\obj\Debug\net8.0\Aura.Core.pdb
 D:\Aura\Aura_POS\Aura.Core\obj\Debug\net8.0\ref\Aura.Core.dll
+D:\Aura\Aura_POS\Aura.Core\obj\Debug\net8.0\Aura.Core.sourcelink.json

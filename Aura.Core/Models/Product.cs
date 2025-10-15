@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Aura.Core.Models;
 
-    public class Product
+    public partial class Product
     {
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
@@ -15,6 +16,21 @@ namespace Aura.Core.Models;
         public int StockQuantity { get; set; }
 
         public ICollection<SaleItem> SaleItems { get; set; } = new List<SaleItem>();
+    }
+
+    public partial class Product : ObservableObject
+    {
+        public Product Clone()
+        {
+        return new Product
+        {
+            Id = this.Id,
+            Name = this.Name,
+            SKU = this.SKU,
+            Price = this.Price,
+            StockQuantity = this.StockQuantity,
+        };
+        }
     }
 
 
