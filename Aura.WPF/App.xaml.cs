@@ -8,6 +8,7 @@ using Microsoft.Extensions.Hosting;
 using System.Configuration;
 using System.Data;
 using System.Windows;
+using Aura.Data.Seed;
 
 namespace Aura.WPF;
 
@@ -34,7 +35,9 @@ public partial class App : Application
                 services.AddTransient<IUnitOfWork, UnitOfWork>();
 
                 // 4. Register ViewModels (We will add these next)
-                services.AddSingleton<MainWindowViewModel>(); 
+                services.AddSingleton<MainWindowViewModel>();
+                services.AddSingleton<TransactionViewModel>();
+                services.AddSingleton<ProductManagementViewModel>();
 
                 // 5. Register Views
                 services.AddSingleton<MainWindow>();
@@ -50,11 +53,28 @@ public partial class App : Application
             .Build();
     }
 
+
     protected override async void OnStartup(StartupEventArgs e)
     {
+        // 1. Start the host
         await _host.StartAsync();
 
-        // Resolve the main window from the service provider
+        // 2. RUN DATABASE SETUP AND SEEDING
+        using (var scope = _host.Services.CreateScope())
+        {
+            var serviceProvider = scope.ServiceProvider;
+            var dbContext = serviceProvider.GetRequiredService<AuraDbContext>();
+
+            // Ensure migrations are applied (creates tables)
+            dbContext.Database.Migrate();
+
+            // SEED THE DATA (Fills the tables with initial products)
+            await DataSeeder.SeedAsync(dbContext); // <-- NEW LINE
+
+            // The application may pause briefly here as data is written, but it's minimal.
+        }
+
+        // 3. Resolve and show the main window
         var mainWindow = _host.Services.GetRequiredService<MainWindow>();
         mainWindow.Show();
 

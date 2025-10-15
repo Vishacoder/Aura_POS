@@ -172,3 +172,4 @@ D:\Aura\Aura_POS\Aura.WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.
 D:\Aura\Aura_POS\Aura.WPF\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
 D:\Aura\Aura_POS\Aura.WPF\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
 D:\Aura\Aura_POS\Aura.WPF\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\Aura\Aura_POS\Aura.WPF\obj\Debug\net8.0-windows\Aura.WPF.sourcelink.json
